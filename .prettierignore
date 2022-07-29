@@ -1,0 +1,12 @@
+# folders
+.nyc_output/
+artifacts/
+build/
+coverage/
+coverageEnv/
+lib/
+node_modules/
+packages/shared-contracts/compound/
+
+# files
+coverage.json

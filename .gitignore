@@ -1,0 +1,22 @@
+# folders
+.coverage_artifacts/
+.coverage_contracts/
+.nyc_output/
+.openzeppelin/dev-*.json
+.openzeppelin/.session
+artifacts/
+build/
+coverage/
+coverageEnv/
+lib/
+node_modules/
+
+# files
+.env
+*.log
+coverage.json
+lerna-debug.log*
+npm-debug.log*
+scTopics
+yarn-debug.log*
+yarn-error.log*

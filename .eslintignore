@@ -1,0 +1,6 @@
+# folders
+artifacts/
+build/
+coverage/
+lib/
+node_modules/
