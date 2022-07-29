@@ -1,6 +1,6 @@
 # ⚡ LightningCelo ⚡ 🌱
 
-DECK: [LINK TO THE DECK](https://www.canva.com/design/DAFEipAze-0/JrWjRxm6KhIaqvJEZVk4yw/view?utm_content=DAFEipAze-0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
+LINK TO DECK: [LINK TO THE DECK](https://www.canva.com/design/DAFEipAze-0/JrWjRxm6KhIaqvJEZVk4yw/view?utm_content=DAFEipAze-0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
 
 Enabling your $cUSD to flow like the river in real time. Let's make money more beautiful than ever.
 <p align="center">
