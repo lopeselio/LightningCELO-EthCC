@@ -1,0 +1,64 @@
+{
+  "name": "@sablier/protocol",
+  "description": "The Sablier money streaming protocol",
+  "version": "1.1.0",
+  "author": {
+    "name": "Sablier",
+    "email": "hello@sablier.finance",
+    "url": "https://sablier.finance"
+  },
+  "bugs": {
+    "url": "https://github.com/sablierhq/sablier/issues"
+  },
+  "dependencies": {
+    "@celo/contractkit": "^2.0.0",
+    "@openzeppelin/contracts": "2.3.0"
+  },
+  "devDependencies": {
+    "@paulrberg/eslint-config": "1.0.0",
+    "@sablier/dev-utils": "1.1.0",
+    "@sablier/shared-contracts": "1.1.0",
+    "@truffle/hdwallet-provider": "^1.5.0",
+    "bignumber.js": "8.1.1",
+    "chai": "^4.2.0",
+    "chai-bignumber": "3.0.0",
+    "dayjs": "^1.8.15",
+    "dotenv": "^7.0.0",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "ethers": "^4.0.45",
+    "ganache-cli": "6.5.1",
+    "ganache-time-traveler": "^1.0.5",
+    "istanbul": "^0.4.5",
+    "prettier-plugin-solidity": "^1.0.0-alpha.34",
+    "shx": "^0.3.2",
+    "solc": "0.5.17",
+    "solhint": "^2.1.2",
+    "truffle": "^5.5.3",
+    "truffle-assertions": "^0.8.2",
+    "web3": "1.2.1"
+  },
+  "files": [
+    "/contracts"
+  ],
+  "homepage": "https://github.com/sablierhq/sablier/tree/develop/packages/protocol#readme",
+  "license": "LGPL-3.0",
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sablierhq/sablier.git",
+    "directory": "packages/protocol"
+  },
+  "scripts": {
+    "clean": "shx rm -rf ./artifacts ./build ./coverage ./coverage.json",
+    "coverage": "scripts/coverage.sh",
+    "lint": "yarn lint:js && yarn lint:sol",
+    "lint:js": "eslint --ignore-path ../../.eslintignore .",
+    "lint:sol": "solhint --config ../../.solhint.json --max-warnings 0 'contracts/**/*.sol'",
+    "test": "scripts/test.sh"
+  }
+}

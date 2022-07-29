@@ -1,0 +1,313 @@
+{
+  "contractName": "Imports",
+  "abi": [
+    {
+      "inputs": [],
+      "payable": false,
+      "stateMutability": "nonpayable",
+      "type": "constructor"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.5.17+commit.d19bba13\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"project:/contracts/test/Imports.sol\":\"Imports\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"@openzeppelin/contracts/access/Roles.sol\":{\"keccak256\":\"0xb002c378d7b82a101bd659c341518953ca0919d342c0a400196982c0e7e7bcdb\",\"urls\":[\"bzz-raw://00a788c4631466c220b385bdd100c571d24b2deccd657615cfbcef6cadf669a4\",\"dweb:/ipfs/QmTEwDbjJNxmMNCDMqtuou3dyM8Wtp8Q9NFvn7SAVM7Jf3\"]},\"@openzeppelin/contracts/access/roles/MinterRole.sol\":{\"keccak256\":\"0x63da54a7a5d4e4d82ac8d1f4f7f995fd8ef2b5fe1f2960b83e534fa37fb60910\",\"urls\":[\"bzz-raw://22e54aa25d633d51efaadb0c956ddd80616a79ee79a41bb8d958473712732612\",\"dweb:/ipfs/QmNbiwWkL4v1i6TgrppGahxHBUHJUrLJLVc8EDb7DFsVDq\"]},\"@openzeppelin/contracts/math/SafeMath.sol\":{\"keccak256\":\"0xd1804d04fb39689453f673601429a99a0c68c422a981fc338773df9a59180fe9\",\"urls\":[\"bzz-raw://1b9307920e0378d58c6677f8952ad090a9ecb30e878835e301a0d18386a870c1\",\"dweb:/ipfs/QmYYixTDVF4FXqFpYzEcufAwEY9BFBJ33Ew9ncsGvD7btC\"]},\"@openzeppelin/contracts/token/ERC20/ERC20.sol\":{\"keccak256\":\"0x852793a3c2f86d336a683b30d688ec3dcfc57451af5a2bf5975cda3b7191a901\",\"urls\":[\"bzz-raw://4f5b57664069671648fb81f55b0082faecdf1b2f159eec6b1fa6cef9b7d73bc5\",\"dweb:/ipfs/QmcyytaLs7zFdb4Uu7C5PmQRhQdB3wA3fUdkV6mkYfdDFH\"]},\"@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol\":{\"keccak256\":\"0x6df8d686813b2875e99928ecd07bf8ee6d7473bc6a95eb1190e8fdba86beda76\",\"urls\":[\"bzz-raw://ab0eb6779dbe75fcbae03ef6ec5d0345ff232750684c8341fc55f175bf43d13c\",\"dweb:/ipfs/QmcEyprFynsXawyHsgWMWGt7RoVV9tAt8Pac7QC1qEd7Bs\"]},\"@openzeppelin/contracts/token/ERC20/IERC20.sol\":{\"keccak256\":\"0x90e8c2521653bbb1768b05889c5760031e688d9cd361f167489b89215e201b95\",\"urls\":[\"bzz-raw://d0abb99bb8bfc2bc0a89902b8ed1dc0442ad08cc78cee64c291b3df6a27bcccc\",\"dweb:/ipfs/QmP5NaEwZthQeM2ESz4WTT3osrP7jhbvu7ocbttBi2JAw6\"]},\"@sablier/shared-contracts/mocks/ERC20Mock.sol\":{\"keccak256\":\"0x08ab6dddc1317ebb18dc3f32d61c0ab35c572cff9e944a7ed7122b9f69832f40\",\"urls\":[\"bzz-raw://1dcd6a89938de7aa084fc788930ee746895c4cb972a75ab134db04e570a13942\",\"dweb:/ipfs/QmR6tjhpLyE6AY6uMabxLHceqmF3KYaH4SNvN26P5biXiZ\"]},\"@sablier/shared-contracts/test/EvilERC20.sol\":{\"keccak256\":\"0xb4ad447b3eac730aa395ae11c80c0de8840aee70f38aaf81abf1f401ec79f960\",\"urls\":[\"bzz-raw://b1ed1f5d9f73f84e030d3b9f0524841a258eb1566c8c6710fceeae207ca4e830\",\"dweb:/ipfs/QmZA73PM6nYerS6j8dZ5CAUtCSH8WrKNQYycX5vrbWRY3H\"]},\"@sablier/shared-contracts/test/NonStandardERC20.sol\":{\"keccak256\":\"0x2efb81db7687ed9e7b7bd12c5a7f77603906783fab76e8e2696b9c66b397b9d4\",\"urls\":[\"bzz-raw://3fac1508ed2e4f2c87eff2e78a0e16758cf80084d79727c26f7a5c33de02b09d\",\"dweb:/ipfs/QmVrxSES3TDSAQ5nkHXBY5Tvdrazs47Z5ypQ3U2PxDTLey\"]},\"project:/contracts/test/Imports.sol\":{\"keccak256\":\"0xd629fcf786d7c2d68121f501703cafe871d591ba576a6f21f3abed0884504bbe\",\"urls\":[\"bzz-raw://9b368638533b1e84c191160d6e5e743eae19542a2ba4b0d826c7f748b4f75bcc\",\"dweb:/ipfs/QmSUZvUpiXyv6W9dhV5VqP1vUJZN83YSWNi5Bn6YyjWBCM\"]}},\"version\":1}",
+  "bytecode": "0x6080604052348015600f57600080fd5b50603e80601d6000396000f3fe6080604052600080fdfea265627a7a723158201aaa85eac2a4fbc4d1b3843258e1517b633284047758a28fddc5da99f188ab3564736f6c63430005110032",
+  "deployedBytecode": "0x6080604052600080fdfea265627a7a723158201aaa85eac2a4fbc4d1b3843258e1517b633284047758a28fddc5da99f188ab3564736f6c63430005110032",
+  "sourceMap": "694:48:17:-;;;717:23;8:9:-1;5:2;;;30:1;27;20:12;5:2;717:23:17;694:48;;;;;;",
+  "deployedSourceMap": "694:48:17:-;;;;;",
+  "source": "pragma solidity =0.5.17;\n\nimport \"@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol\";\nimport \"@sablier/shared-contracts/mocks/ERC20Mock.sol\";\nimport \"@sablier/shared-contracts/test/EvilERC20.sol\";\nimport \"@sablier/shared-contracts/test/NonStandardERC20.sol\";\n\n// You might think this file is a bit odd, but let me explain.\n// We only use some contracts in our tests, which means Truffle\n// will not compile it for us, because it is from an external\n// dependency.\n//\n// We are now left with three options:\n// - Copy/paste these contracts\n// - Run the tests with `truffle compile --all` on\n// - Or trick Truffle by claiming we use it in a Solidity test\n//\n// You know which one I went for.\n\ncontract Imports {\n    constructor() public {}\n}\n",
+  "sourcePath": "/Users/eliojordanlopes/Desktop/Blockchain/Celo-Huobi/submission/lightningcUSD/packages/protocol/contracts/test/Imports.sol",
+  "ast": {
+    "absolutePath": "project:/contracts/test/Imports.sol",
+    "exportedSymbols": {
+      "Imports": [
+        2734
+      ]
+    },
+    "id": 2735,
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 2725,
+        "literals": [
+          "solidity",
+          "=",
+          "0.5",
+          ".17"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "0:24:17"
+      },
+      {
+        "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol",
+        "file": "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol",
+        "id": 2726,
+        "nodeType": "ImportDirective",
+        "scope": 2735,
+        "sourceUnit": 743,
+        "src": "26:63:17",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "@sablier/shared-contracts/mocks/ERC20Mock.sol",
+        "file": "@sablier/shared-contracts/mocks/ERC20Mock.sol",
+        "id": 2727,
+        "nodeType": "ImportDirective",
+        "scope": 2735,
+        "sourceUnit": 1286,
+        "src": "90:55:17",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "@sablier/shared-contracts/test/EvilERC20.sol",
+        "file": "@sablier/shared-contracts/test/EvilERC20.sol",
+        "id": 2728,
+        "nodeType": "ImportDirective",
+        "scope": 2735,
+        "sourceUnit": 1386,
+        "src": "146:54:17",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "absolutePath": "@sablier/shared-contracts/test/NonStandardERC20.sol",
+        "file": "@sablier/shared-contracts/test/NonStandardERC20.sol",
+        "id": 2729,
+        "nodeType": "ImportDirective",
+        "scope": 2735,
+        "sourceUnit": 1801,
+        "src": "201:61:17",
+        "symbolAliases": [],
+        "unitAlias": ""
+      },
+      {
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "contract",
+        "documentation": null,
+        "fullyImplemented": true,
+        "id": 2734,
+        "linearizedBaseContracts": [
+          2734
+        ],
+        "name": "Imports",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": {
+              "id": 2732,
+              "nodeType": "Block",
+              "src": "738:2:17",
+              "statements": []
+            },
+            "documentation": null,
+            "id": 2733,
+            "implemented": true,
+            "kind": "constructor",
+            "modifiers": [],
+            "name": "",
+            "nodeType": "FunctionDefinition",
+            "parameters": {
+              "id": 2730,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "728:2:17"
+            },
+            "returnParameters": {
+              "id": 2731,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "738:0:17"
+            },
+            "scope": 2734,
+            "src": "717:23:17",
+            "stateMutability": "nonpayable",
+            "superFunction": null,
+            "visibility": "public"
+          }
+        ],
+        "scope": 2735,
+        "src": "694:48:17"
+      }
+    ],
+    "src": "0:743:17"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "project:/contracts/test/Imports.sol",
+      "exportedSymbols": {
+        "Imports": [
+          2734
+        ]
+      }
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "=",
+            "0.5",
+            ".17"
+          ]
+        },
+        "id": 2725,
+        "name": "PragmaDirective",
+        "src": "0:24:17"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 743,
+          "absolutePath": "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol",
+          "file": "@openzeppelin/contracts/token/ERC20/ERC20Mintable.sol",
+          "scope": 2735,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2726,
+        "name": "ImportDirective",
+        "src": "26:63:17"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 1286,
+          "absolutePath": "@sablier/shared-contracts/mocks/ERC20Mock.sol",
+          "file": "@sablier/shared-contracts/mocks/ERC20Mock.sol",
+          "scope": 2735,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2727,
+        "name": "ImportDirective",
+        "src": "90:55:17"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 1386,
+          "absolutePath": "@sablier/shared-contracts/test/EvilERC20.sol",
+          "file": "@sablier/shared-contracts/test/EvilERC20.sol",
+          "scope": 2735,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2728,
+        "name": "ImportDirective",
+        "src": "146:54:17"
+      },
+      {
+        "attributes": {
+          "SourceUnit": 1801,
+          "absolutePath": "@sablier/shared-contracts/test/NonStandardERC20.sol",
+          "file": "@sablier/shared-contracts/test/NonStandardERC20.sol",
+          "scope": 2735,
+          "symbolAliases": [
+            null
+          ],
+          "unitAlias": ""
+        },
+        "id": 2729,
+        "name": "ImportDirective",
+        "src": "201:61:17"
+      },
+      {
+        "attributes": {
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "contract",
+          "documentation": null,
+          "fullyImplemented": true,
+          "linearizedBaseContracts": [
+            2734
+          ],
+          "name": "Imports",
+          "scope": 2735
+        },
+        "children": [
+          {
+            "attributes": {
+              "documentation": null,
+              "implemented": true,
+              "isConstructor": true,
+              "kind": "constructor",
+              "modifiers": [
+                null
+              ],
+              "name": "",
+              "scope": 2734,
+              "stateMutability": "nonpayable",
+              "superFunction": null,
+              "visibility": "public"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2730,
+                "name": "ParameterList",
+                "src": "728:2:17"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2731,
+                "name": "ParameterList",
+                "src": "738:0:17"
+              },
+              {
+                "attributes": {
+                  "statements": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 2732,
+                "name": "Block",
+                "src": "738:2:17"
+              }
+            ],
+            "id": 2733,
+            "name": "FunctionDefinition",
+            "src": "717:23:17"
+          }
+        ],
+        "id": 2734,
+        "name": "ContractDefinition",
+        "src": "694:48:17"
+      }
+    ],
+    "id": 2735,
+    "name": "SourceUnit",
+    "src": "0:743:17"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.5.17+commit.d19bba13.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.7",
+  "updatedAt": "2022-06-24T10:29:21.859Z",
+  "devdoc": {
+    "methods": {}
+  },
+  "userdoc": {
+    "methods": {}
+  }
+}
