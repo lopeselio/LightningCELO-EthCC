@@ -2,10 +2,12 @@
 
 LINK TO DECK: [LINK TO THE DECK](https://www.canva.com/design/DAFEipAze-0/JrWjRxm6KhIaqvJEZVk4yw/view?utm_content=DAFEipAze-0&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent)
 
+Developed by [Elio Jordan Lopes](https://github.com/lopeselio/) and [Ramesh Sachan](https://github.com/holps-7)
+
 Enabling your $cUSD to flow like the river in real time. Let's make money more beautiful than ever.
 <p align="center">
   <a href="/">
-    <img src="./lightning.png" alt="Logo" width="150" height="200">
+    <img src="https://raw.githubusercontent.com/holps-7/lightningCELO/master/lightning.png" alt="Logo" width="150" height="200">
   </a>
 </p>
 
